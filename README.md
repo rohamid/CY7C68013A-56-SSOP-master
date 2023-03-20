@@ -1,0 +1,2 @@
+# CY7C68013A-56-SSOP-master
+EZ-USB FX2LP CY7C68013A-56-SSOP 4-layer PCB breakout board
