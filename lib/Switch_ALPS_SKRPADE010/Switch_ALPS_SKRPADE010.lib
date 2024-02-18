@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ALPS SKRPADE010
+#
+DEF SKRPADE010 SW 0 40 Y Y 1 L N
+F0 "SW" 0 0 50 H V L CNN 
+F1 "SKRPADE010" 0 100 50 H V L CNN 
+F2 "ALPS-SKRPADE010-*" 0 200 50 H I L CNN 
+F3 "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPADE010.html" 0 300 50 H I L CNN 
+F4 "50 mA" 0 400 50 H I L CNN "Current Rating"
+F5 "16 VDC" 0 500 50 H I L CNN "Voltage Rating DC"
+F6 "Switch" 0 600 50 H I L CNN "category"
+F7 "yes" 0 700 50 H I L CNN "lead free"
+F8 "7900483fb2e39a63" 0 800 50 H I L CNN "library id"
+F9 "ALPS" 0 900 50 H I L CNN "manufacturer"
+F10 "688-SKRPAD" 0 1000 50 H I L CNN "mouser part number"
+F11 "SMT_TACT_SWITCH" 0 1100 50 H I L CNN "package"
+F12 "yes" 0 1200 50 H I L CNN "rohs"
+F13 "+85°C" 0 1300 50 H I L CNN "temperature range high"
+F14 "-30°C" 0 1400 50 H I L CNN "temperature range low"
+DRAW
+X 1 1 0 -100 200 D 40 0 1 1 U 
+X 3 3 0 -300 200 U 40 0 1 1 U 
+X 2 2 400 -100 200 D 40 0 1 1 U 
+X 4 4 400 -300 200 U 40 0 1 1 U 
+P 2 1 1 0 400 -200 300 -200 N
+P 2 1 1 0 0 -200 100 -200 N
+C 130 -200 20 1 1 0 N
+C 270 -200 20 1 1 0 N
+P 2 1 1 0 150 -190 250 -130 N
+ENDDRAW
+ENDDEF
+#
+# End Library
